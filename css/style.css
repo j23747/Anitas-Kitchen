@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/*Styling the hamburger menu logo*/
+#hamburger-menu {
+    height: 710px;
+    background-image: url('/Images/landing.jpg');
+    background-size: cover;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+/*Styling the paragraph */
+p{
+    font-weight: normal;
+    font-weight: 700;
+    font-family: serif;
+    font-size: medium;
+
+
+    
+}
+
+.big-logo {
+    width: 300px;
+    margin: 0 auto;
+}
+/* Styling the paragraph position */
+#header-paragraph {
+    color: fff;
+    margin: 20px auto;
+    width: 400px;
+    line-height: 0.3px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+
+}
+
