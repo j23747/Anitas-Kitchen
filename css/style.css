@@ -38,7 +38,23 @@ p{
     text-align: center;
 
 }
+/* Backgrounf for breakfast */ 
+#Brekko {
+    background-image: url('./Images/breakfast.jpg);
+}
 
+/* Backgrounf for lunch */ 
+
+#lunch {
+    background: url('../Images/lunch.jpg');
+}
+
+/* Backgrounf for Dinner */ 
+
+#Dinner {
+    background: url('../Images/dinner.jpg');
+}
+/* Styling Lunch, Breakfast & Dinner Div */
 
 }
 
