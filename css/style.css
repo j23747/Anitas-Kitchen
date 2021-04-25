@@ -1,60 +1,29 @@
-.header{
+/*Styling the top left hamburger header & Background image*/
+
+.header-top {
+    background-image: url('../Images/landing.jpg');
+    margin-top: -10px;
+    padding-bottom: 50px;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-/*Styling the hamburger menu logo*/
-#hamburger-menu {
-    height: 710px;
-    background-image: url('/Images/landing.jpg');
+    margin-left: -10px;
+    margin-right: -8px;
+    /* Background-image No repeat */
     background-size: cover;
-    margin-bottom: 0px;
-    width: 100%;
-    padding-bottom: 30px;
-
-}
-/*Styling the paragraph */
-p{
-    font-weight: normal;
-    font-weight: 700;
-    font-family: serif;
-    font-size: medium;
-
-
+    overflow: hidden;
     
 }
+/* Styling Hamburger Icon Size & Position */
+#hamburger-icon-top > img {
+    width: 90px;
+    padding-top: 60px;
+    padding-left: 90px;
 
+
+}
+
+/* Styling Big-logo to center */
 .big-logo {
-    width: 300px;
-    margin: 0 auto;
-}
-/* Styling the paragraph position */
-#header-paragraph {
-    color: fff;
-    margin: 20px auto;
-    width: 400px;
-    line-height: 0.3px;
-    text-transform: capitalize;
-    text-align: center;
+    width: 250px;
+    justify-content: center;
 
 }
-/* Backgrounf for breakfast */ 
-#Brekko {
-    background-image: url('./Images/breakfast.jpg);
-}
-
-/* Backgrounf for lunch */ 
-
-#lunch {
-    background: url('../Images/lunch.jpg');
-}
-
-/* Backgrounf for Dinner */ 
-
-#Dinner {
-    background: url('../Images/dinner.jpg');
-}
-/* Styling Lunch, Breakfast & Dinner Div */
-
-}
-
