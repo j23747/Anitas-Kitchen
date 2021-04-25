@@ -4,7 +4,6 @@
     background-image: url('../Images/landing.jpg');
     margin-top: -10px;
     padding-bottom: 50px;
-    width: 100%;
     margin-left: -10px;
     margin-right: -8px;
     /* Background-image No repeat */
@@ -45,36 +44,45 @@
 
 #Happy-Party-time {
     box-sizing: border-box;
-    font-size: 50px;
+    font-size: 33px;
     font-weight: bold;
-    height: 200px;
+    height: 211px;
     width: 500px;
     text-align: center;
+    margin-top: 9px;
 }
 
 /* Styling Happy Hour & Happy Time section */
 .Happy-Party {
+    display:flex;
     justify-content: space-around;
     flex-direction: row;
     padding-top: 30px;
-    margin-top: -72px;
+    margin-top: -80px;
     margin-left: -8px;
     margin-right: -8px;
+    margin-bottom: auto;
+    
     
 }
 /*Styling Happy time box */
 #Happy-T{
-    background-color: rgb(199, 174, 99);
+    background-color: #f15a29;
     padding:25px;
+    text-align: center;
     color: whitesmoke;
     margin-top: -35px;
+    height: 10px;
+
 }
 
 /*Styling Happy Hour box ID */
 #Happy-H{
     background-color: rgb(238, 230, 230);
-    color:black;
-    padding: 15px;
+    padding: 50px;
+    text-align: center;
+    height: 5px;
+    color: #333;
 }
 /* Styling breakfast No repeat */
 #Brekko {
@@ -82,6 +90,36 @@
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 600px;
+    margin-top: 42px; 
+    padding-top: 58px;
+    color: white;
+
+
+}
+/* Styling Lunch box section */
+#Lunch-1 {
+    background-image: url('../Images/lunch.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    margin-top: 42px; 
+    padding-top: 60px;
+    color: white;
+
+}
+
+/* Styling Dinner box section */
+#Dinner {
+    background-image: url('../Images/dinner.jpg');
+    text-align: center;
+    width: 600px;
+    padding-top: 41px;
+    padding-top: 60px;
+    color: white;
+    margin-top: 42px;
+
 }
 
 
