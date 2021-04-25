@@ -23,7 +23,66 @@
 
 /* Styling Big-logo to center */
 .big-logo {
-    width: 250px;
+
     justify-content: center;
+    margin: -60px;
+    padding: 80px;
+    display: flex;
+
+}
+/* Styling header Paragraph Text to center*/
+
+#header-paragraph {
+    text-align: center;
+    font-size: xx-large;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 300px;
+}
+/* Styling breakfast, Lunch & dinner section */
+
+#Happy-Party-time {
+    box-sizing: border-box;
+    font-size: 50px;
+    font-weight: bold;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+}
+
+/* Styling Happy Hour & Happy Time section */
+.Happy-Party {
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-top: -72px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+}
+/*Styling Happy time box */
+#Happy-T{
+    background-color: rgb(199, 174, 99);
+    padding:25px;
+    color: whitesmoke;
+    margin-top: -35px;
+}
+
+/*Styling Happy Hour box ID */
+#Happy-H{
+    background-color: rgb(238, 230, 230);
+    color:black;
+    padding: 15px;
+}
+/* Styling breakfast No repeat */
+#Brekko {
+    background-image: url('../Images/breakfast.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 }
