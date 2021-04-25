@@ -137,21 +137,18 @@
     }
 
 }
-#Fast-food-images {
-    padding-top: 10em;
-    
-}
+/* Styling Fast-food-images section */
 
 
-  
+/*Styling drinks images section */
+#drinks-img {
 
 }
-}
-position: absolute;
-top: 190px; 
-right: 10px; /* NOT left: 190px; */ 
-text-align:right;
+
+/* Styling Drinks Section */
+
+.drinks-section {
+    margin-top: 70px;
+    clear: both;
 }
 
-
-}
