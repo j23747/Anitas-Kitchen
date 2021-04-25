@@ -127,6 +127,31 @@
     margin-top: 42px;
 
 }
+/* Styling Fast-Food section */
+.fast-food {
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    display: flex; 
+    float: left;
+    margin-top: 30px;
+    }
+
+}
+#Fast-food-images {
+    padding-top: 10em;
+    
+}
+
+
+  
+
+}
+}
+position: absolute;
+top: 190px; 
+right: 10px; /* NOT left: 190px; */ 
+text-align:right;
+}
 
 
 }
