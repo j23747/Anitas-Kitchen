@@ -182,15 +182,12 @@
     
 
 
+}.drinks-1{
+    clear: both;
+    margin-top: 65px;
 }
-color: #f15b29;
-font-size: 24px;
-box-sizing: content-box;
-border: solid #f15b29 1px;
 
-
-/*Styling drinks images section */
-#drinks-img {
+#drinks-images-1{
     
     display: flex;
     flex-direction: row;
@@ -201,16 +198,299 @@ border: solid #f15b29 1px;
     margin-bottom: 105px;
     padding: 20px;
     box-shadow: 0 0 5px #B6B6B6;
-
-
-
-
 }
 
-/* Styling Drinks Section */
+#drinks-text-paragraph{
+    padding-left: 190px;
+    padding-top: 20px;
+    color: #505050;
+}
 
-.drinks-section{
-    margin-top: 70px;
+#button-drinks-1{
+    color: #f15b29;
+    font-size: 24px;
+    box-sizing: content-box;
+    border: solid #f15b29 1px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-right: 800px;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+<!-- Styling the Slideshow container -->
+
+.slideshow-container-2{
     clear: both;
+    background-image: url(./Images/backgrounds/foodsBg.jpg);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.slideshow-box{
+    background-color: white;
+}
+
+#slideshow-menu-food{
+    display: flex;
+    justify-content: space-around;
+    color: #505050;
+    font-size: 13px;
+    background-color: white;
+}
+
+#slideshow-menu-food > h1:nth-child(2), #slideshow-menu-food> h1:nth-child(3), #slideshow-menu-food > h1:nth-child(4){
+    box-sizing: content-box;
+    border:solid #b6b6b6 1px;
+    background-color:#E3E3E3;
+    padding-left: 100px;
+    padding-right: 106px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#slideshow-menu-food > h1:first-child{
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #f15b29;
+}
+
+#slideshow-images-styling{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#slideshow-images-styling > p:nth-child(1), #slideshow-images-styling > p:nth-child(5){
+    color: #f15b29;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* This is for sizing the angle brackets */
+    transform: scale(1.5,4);
+    font-weight:bolder
+}
+
+
+#slideshow-text-p{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-bottom: 60px;
+    font-weight: bold;
+    color: #f15b29;
+}
+
+#slideshow-text-p > p:nth-child(1){
+    padding-left: 47px;
+}
+
+#slideshow-text-p> p:nth-child(3){
+    padding-right: 47px;
+}
+
+
+<!-- Styling Customer feedback section -5 -->
+.customer-feedback-section-5{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.customer-feedback-5{
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px #b6b6b6;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.customer-feedback-section-5> #customers > h3, .customer-feedback-section-5 > #customers > p, .customer-feedback-section-5> #about-menu >p{
+    color:#505050;
+}
+
+.customer-feedback-section-5 > #customers > h1, .customer-feedback > #about-menu > h1{
+    color: #f15b29;
+}
+
+#customers{
+    padding-right: 48px;
+    margin-top: 20px;
+}
+
+#about-menu{
+    width: 400px;
+    padding-left: 42px;
+    border-left: solid 3px #E3E3E3;
+    padding-left: 24px;
+    margin-top: 20px;
+}
+
+#customers > p{
+    font-size: 18px;
+}
+
+#about-menu > p{
+    font-size: 18px;
+}
+/* Styling profile-pictures-6 */
+#profile-pictures-6{
+    display: flex;
+    justify-content:center;
+}
+
+/* Styling profile icons */
+#profile-pictures-6 > p:first-child, #profile-pictures-6 > img:nth-child(2), #profile-pictures-6 > img:nth-child(3), #profile-pictures-6 > img:nth-child(4){
+    padding-right: 20px;
+}
+
+#profile-pictures > img:nth-child(2), #profile-pictures > img:nth-child(4){
+    height: 52px;
+}
+
+/* This is for styling the angle brackets */
+#profile-pictures-6 > p:first-child, #profile-pictures-6> p:last-child{
+    color: #f15b29;
+    margin-top: 22px;
+
+    /* This is for sizing the angle brackets */
+    transform: scale(1.5,4);
+    font-weight:bolder
+}
+
+/* Styling the Footer newsletter  */
+.footer-1{
+    background-image:url('Images/subscribe.jpg');
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Styling the newsletter to be placed in the center */
+.newsletter-1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Changes the heading color to white */
+.newsletter-1 > h1{
+    color: white;
+    font-size: 32px;
+}
+
+/* increases input size */
+input{
+    font-size: 20px;
+}
+
+/* Adjusts the width, height and color of the text input */
+input[type="text"]{
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding-right: 110px;
+    padding-left: 20px;
+    border-radius: 5px;
+
+}
+
+/* Adjusts the width, height and color of the button */
+input[type="button"]{
+    color: white;
+    background-color: #f15b29;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+/* Second part of the footer */
+
+.footer-2{
+    margin-top: 8px;
+    background-color: #f15b29;
+    background-size: cover;
+    overflow: hidden;
+    
+    /* Removes white spacing around the container*/
+    margin-left: -8px; 
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    /* Aligns content in the center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the burger icon and MENU text */
+#burger-menu-final"{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    margin-bottom: -12px;
+}
+
+#burger-menu-final > img{
+    height: 45px;
+    padding-right: 14px;
+    margin-top: 30px;
+}
+
+#burger-menu-final"> h1{
+    font-size: 44px;
+}
+
+.footer-final > p:nth-child(2){
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 0;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.footer-final> p:nth-child(4){
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
