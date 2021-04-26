@@ -458,7 +458,7 @@ input[type="button"]{
 }
 
 /* Styling the burger icon and MENU text */
-#burger-menu-final"{
+#burger-menu-final{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -472,7 +472,7 @@ input[type="button"]{
     margin-top: 30px;
 }
 
-#burger-menu-final"> h1{
+#burger-menu-final> h1{
     font-size: 44px;
 }
 
@@ -483,7 +483,7 @@ input[type="button"]{
     margin-top: 0;
 }
 
-#icons{
+#icons-1
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
