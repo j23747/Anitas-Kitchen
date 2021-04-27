@@ -9,11 +9,14 @@ cd path/to/directory-your-directory
 
 git clone https://github.com/josphatmwania/Anitas-Kitchen.git -Install virtual environment
 
-commands:
+# commands:
 
 $ git remote add https://github.com/josphatmwania/Anitas-Kitchen.git
+
 $ git init
+
 $ code .
+
 ~ Then run the index.html file
 
 
@@ -23,8 +26,8 @@ HTML
 CSS
 
 
-#Authors
+# Authors
 Josphat M. Mwania
 
-#License
+# License
 MIT license Copyright (c) Josphat M. Mwania
