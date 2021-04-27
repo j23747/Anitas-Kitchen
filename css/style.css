@@ -429,7 +429,7 @@ input{
     font-size: 20px;
 }
 
-/* Adjusts the width, height and color of the text input */
+/* This styling Adjusts the width, height and color of the text input */
 input[type="text"]{
     background: rgba(255, 255, 255, .2);
     color: white;
@@ -442,7 +442,7 @@ input[type="text"]{
 
 }
 
-/* Adjusts the width, height and color of the button */
+/* This styling Adjusts the width, height and color of the button */
 input[type="button"]{
     color: white;
     background-color: #f15b29;
@@ -454,7 +454,7 @@ input[type="button"]{
     border-radius: 5px;
 }
 
-/* Second part of the footer */
+/* 2nd part of the footer */
 
 .footer-2{
     margin-top: 8px;
@@ -492,12 +492,12 @@ input[type="button"]{
     margin-top: 30px;
 }
 
-/* Increases the MENU title size */
+/* This styling Increases the MENU title size */
 #burger-menu > h1{
     font-size: 44px;
 }
 
-/* Styles the Footer-2's second child */
+/* This styles the Footer-2's second child */
 .footer-container > p:nth-child(2){
     color: white;
     text-align: center;
@@ -505,7 +505,7 @@ input[type="button"]{
     margin-top: 0;
 }
 
-/* Aligns the icons in a row */
+/* Aligning the icons in a row */
 #icons{
     display: flex;
     justify-content: space-around;
