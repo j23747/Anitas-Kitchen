@@ -164,7 +164,7 @@
 }
 
 
-/* STyling the Gallery button Section */
+/* Styling the Gallery button Section */
 #Gallery-button-food {
     padding-bottom: 15px;
     color: maroon;
@@ -182,13 +182,13 @@
     
 
 
-}.drinks-1{
+}..drinks{
     clear: both;
     margin-top: 65px;
 }
 
-#drinks-images-1{
-    
+/* Styles the drinks images section */
+#drinks-images{    
     display: flex;
     flex-direction: row;
     width: fit-content;
@@ -200,13 +200,15 @@
     box-shadow: 0 0 5px #B6B6B6;
 }
 
-#drinks-text-paragraph{
+/* Styles the text */
+#drinks-text{
     padding-left: 190px;
     padding-top: 20px;
     color: #505050;
 }
 
-#button-drinks-1{
+/* Styles the button */
+#button-drinks{
     color: #f15b29;
     font-size: 24px;
     box-sizing: content-box;
@@ -220,11 +222,12 @@
     padding-bottom: 10px;
 }
 
-<!-- Styling the Slideshow container -->
-
-.slideshow-container-2{
+/* Adds background */
+.slideshow-container{
     clear: both;
-    background-image: url(./Images/backgrounds/foodsBg.jpg);
+    background-image: url(../Images/foodsBg.jpg);
+
+    /* Removes white spacing */
     margin-left: -8px;
     margin-right: -8px;
     padding-left: 200px;
@@ -236,11 +239,13 @@
     overflow: hidden;
 }
 
+/* Styles the background */
 .slideshow-box{
     background-color: white;
 }
 
-#slideshow-menu-food{
+/* Alligns content in columns */
+#slideshow-menu{
     display: flex;
     justify-content: space-around;
     color: #505050;
@@ -248,7 +253,8 @@
     background-color: white;
 }
 
-#slideshow-menu-food > h1:nth-child(2), #slideshow-menu-food> h1:nth-child(3), #slideshow-menu-food > h1:nth-child(4){
+/* Styles all the headings in the slideshow menu */
+#slideshow-menu > h1:nth-child(2), #slideshow-menu > h1:nth-child(3), #slideshow-menu > h1:nth-child(4){
     box-sizing: content-box;
     border:solid #b6b6b6 1px;
     background-color:#E3E3E3;
@@ -260,13 +266,15 @@
     margin-bottom: 0px;
 }
 
-#slideshow-menu-food > h1:first-child{
+/* Selects the first element */
+#slideshow-menu > h1:first-child{
     padding-left: 80px;
     padding-right: 80px;
     color: #f15b29;
 }
 
-#slideshow-images-styling{
+/* Allows content to ba aligned in columns */
+#slideshow-images{
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -274,7 +282,8 @@
     padding-bottom: 10px;
 }
 
-#slideshow-images-styling > p:nth-child(1), #slideshow-images-styling > p:nth-child(5){
+/* Styles the content in the slidwshow-images */
+#slideshow-images > p:nth-child(1), #slideshow-images > p:nth-child(5){
     color: #f15b29;
     padding-top: 80px;
     padding-left: 20px;
@@ -285,8 +294,8 @@
     font-weight:bolder
 }
 
-
-#slideshow-text-p{
+/* Allows content to be aligned in column */
+#slideshow-text{
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -295,24 +304,26 @@
     color: #f15b29;
 }
 
-#slideshow-text-p > p:nth-child(1){
+/* Selects the first paragraph */
+#slideshow-text > p:nth-child(1){
     padding-left: 47px;
 }
 
-#slideshow-text-p> p:nth-child(3){
+/* Selects the third element which is a paragraph */
+#slideshow-text > p:nth-child(3){
     padding-right: 47px;
 }
 
-
-<!-- Styling Customer feedback section -5 -->
-.customer-feedback-section-5{
+/* Styles the .customer-feedback-section */
+.customer-feedback-section{
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 200px;
     padding-right: 200px;
 }
 
-.customer-feedback-5{
+/* Alows content to be in a column */
+.customer-feedback{
     display:flex;
     justify-content: space-around;
     box-shadow: 0px 0px 5px #b6b6b6;
@@ -322,19 +333,23 @@
     padding-bottom: 24px;
 }
 
-.customer-feedback-section-5> #customers > h3, .customer-feedback-section-5 > #customers > p, .customer-feedback-section-5> #about-menu >p{
+/* styles the customer-feedback-section h3 and paragraphs */
+.customer-feedback > #customers > h3, .customer-feedback > #customers > p, .customer-feedback > #about-menu >p{
     color:#505050;
 }
 
-.customer-feedback-section-5 > #customers > h1, .customer-feedback > #about-menu > h1{
+/* Styles the customer-feedback-section container headings */
+.customer-feedback > #customers > h1, .customer-feedback > #about-menu > h1{
     color: #f15b29;
 }
 
+/* Styles id customers */
 #customers{
     padding-right: 48px;
     margin-top: 20px;
 }
 
+/* Style's the about menu id */
 #about-menu{
     width: 400px;
     padding-left: 42px;
@@ -343,21 +358,24 @@
     margin-top: 20px;
 }
 
+/* Increases the font-size in the paragaraphs located in id customers */
 #customers > p{
     font-size: 18px;
 }
 
+/* Styles the About Menu text */
 #about-menu > p{
     font-size: 18px;
 }
-/* Styling profile-pictures-6 */
-#profile-pictures-6{
+
+/* Aligns the profile icons in a column */
+#profile-pictures{
     display: flex;
     justify-content:center;
 }
 
-/* Styling profile icons */
-#profile-pictures-6 > p:first-child, #profile-pictures-6 > img:nth-child(2), #profile-pictures-6 > img:nth-child(3), #profile-pictures-6 > img:nth-child(4){
+/* Increases spacing between profile icons */
+#profile-pictures > p:first-child, #profile-pictures > img:nth-child(2), #profile-pictures > img:nth-child(3), #profile-pictures > img:nth-child(4){
     padding-right: 20px;
 }
 
@@ -366,7 +384,7 @@
 }
 
 /* This is for styling the angle brackets */
-#profile-pictures-6 > p:first-child, #profile-pictures-6> p:last-child{
+#profile-pictures > p:first-child, #profile-pictures > p:last-child{
     color: #f15b29;
     margin-top: 22px;
 
@@ -375,9 +393,10 @@
     font-weight:bolder
 }
 
-/* Styling the Footer newsletter  */
+/* Footer newsletter styling */
+
 .footer-1{
-    background-image:url('Images/subscribe.jpg');
+    background-image:url('../Images/subscribe.jpg');
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -8px;
@@ -390,8 +409,8 @@
     overflow: hidden;
 }
 
-/* Styling the newsletter to be placed in the center */
-.newsletter-1{
+/* Allows newsletter to be placed in the center */
+.newsletter{
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -400,7 +419,7 @@
 }
 
 /* Changes the heading color to white */
-.newsletter-1 > h1{
+.newsletter > h1{
     color: white;
     font-size: 32px;
 }
@@ -457,8 +476,8 @@ input[type="button"]{
     align-items: center;
 }
 
-/* Styling the burger icon and MENU text */
-#burger-menu-final{
+/* Styles the burger icon and MENU text */
+#burger-menu{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -466,30 +485,35 @@ input[type="button"]{
     margin-bottom: -12px;
 }
 
-#burger-menu-final > img{
+/* Styles the burger icon */
+#burger-menu > img{
     height: 45px;
     padding-right: 14px;
     margin-top: 30px;
 }
 
-#burger-menu-final> h1{
+/* Increases the MENU title size */
+#burger-menu > h1{
     font-size: 44px;
 }
 
-.footer-final > p:nth-child(2){
+/* Styles the Footer-2's second child */
+.footer-container > p:nth-child(2){
     color: white;
     text-align: center;
     font-size: 23px;
     margin-top: 0;
 }
 
-#icons-1
+/* Aligns the icons in a row */
+#icons{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
 }
 
-.footer-final> p:nth-child(4){
+/* Styles the text at the bottom*/
+.footer-container > p:nth-child(4){
     color: white;
     text-align: center;
     margin-top: 50px;
